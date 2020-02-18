@@ -15,5 +15,6 @@ Of course, most games give rewards for good play rather than bad play, but the r
 I came up with an idea that was inspired by the air-dash reset item from Doom Eternal. The concept I developed was nearly identical to an idea that leads from other pods came up with independently. I proposed an item that would be scattered around platforming areas that would reset the slow-mo meter and the ability to teleport so players could teleport to these items in order to chain their teleports together. Ultimately it was decided to scrap the original idea outlined in the document in lieu of this new idea.
 
 ![Doom Eternal Pre-Release Image](https://i.imgur.com/PEkC3QJ.jpg)
+*Fig. 2: The minimum dominating set of a graph*
 
 Another thing I did for this sprint was clone the Git repo and start playing with the Player Movement prototype scene to get a feel for the controls and the intricacies of the movement as it was currently implemented. After doing this I contacted my pod lead with a couple suggestions about controls and movement mechanics. I also played two good feeling (yet quite different) 2D platformers, Dead Cells and Hollow Knight, as references to see what choices they made and where we could learn from them. This led to some changes that I felt made the platforming more intuitive particularly in sections where precise wall jumps were required. 
