@@ -18,6 +18,8 @@ I came up with an idea that was inspired by the air-dash reset item from Doom Et
 
 Another thing I did for this sprint was clone the Git repo and start playing with the Player Movement prototype scene to get a feel for the controls and the intricacies of the movement as it was currently implemented. After doing this I contacted my pod lead with a couple suggestions about controls and movement mechanics. I also played two good feeling (yet quite different) 2D platformers, Dead Cells and Hollow Knight, as references to see what choices they made and where we could learn from them. This led to some changes that I felt made the platforming more intuitive particularly in sections where precise wall jumps were required. See the GIFs below for a comparison of the changes.
 
+Old (note ability to gain height jumping up one wall but not when jumping between two)
 ![Old](https://i.imgur.com/tTe9YcT.gif)
 
+New (note that jumping between walls now gains height rather than jumping up one wall)
 ![New](https://i.imgur.com/dD3K0nY.gif)
