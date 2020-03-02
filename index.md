@@ -1,5 +1,21 @@
 # WolverineSoft Studio Dev Blog
-## Dev Blog 2/3 - 2/17
+## Dev Blog 2/17 - 3/2
+This sprint started with me play testing the official build of Project Blue. I gave feedback on the build, focusing on feedback that was relevant to the player pod. I gave feedback to the animators about how exaggerated the idle animation was and the possibility of adding an animation that contrasts walking and running. I also gave feedback about how player movement sometimes felt imprecise.
+
+I received feedback on the player controls which helped inform the work I did during this sprint. We are now weighing the benefit of adding a second control method, as players on split on how aiming should be handled. We currently have aiming and movement on the same stick (left) but other players want the precision of aiming with the right stick. Because important actions are bound to the face buttons we think that dual stick controls would require rebinding some inputs, like jump, to the bumpers.
+
+The first thing I did to fix a concern that I came across while playtesting the build was to add a deadzone to the left stick. This was because the player could slowly drift in a direction at the slightest disturbance of the stick, even if it appeared to be in a neutral position.
+
+The next thing I did was to protoype mouse controls. I used a couple of games as a reference point for possible mouse control schemes. The first was Flinthook, which has a radius around the player that bounds the max distance of the aiming reticle. The other was Enter the Gungeon, where the reticle is able to be moved anywhere on the screen when using a mouse. Finally I considered how the game works now with a controller, the aiming dot moves in a circle with a fixed radius. 
+
+The next thing I did was read the aiming code in the Player Controller to try to understand how it works. I also read some documentation and talked to other studio members to get an idea of how Unity's Input Action system works and how use the Input Map. Then after wrestling with the code and with vector math, I attempted to implement the different schemes. Not all of my efforts were entirely successful, but after Spring Break I hope to get some help figuring out how to get the aiming to work the way I want it to.
+(Also I want to post some GIFs of the reference games and my prototypes but I haven't had access to a computer for the first half of break)
+
+Time Breakdown:
+Meetings and Playtesting : 3hrs., Keyboard and Controller rebinding: 1hr, Mouse Control Prototypes: 8hrs.
+
+
+## Dev Blog 2/3 - 2
 
 This sprint started with studio members learning our pod assignments. I was fortunate enough to be assigned to the player pod, which was the pod I indicated I was most interested in. The player pod lead and I are the two designers working on the movement and combat of the main character Io. In addition, we also are responsible for designing mechanics that directly impact the main character such as items. 
 
