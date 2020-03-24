@@ -1,4 +1,22 @@
 # WolverineSoft Studio Dev Blog
+## Dev Blog 3/2 - 3/23
+For this sprint I found myself largely transitioning to a new role within the studio. At this time in the development process there is a bit of a bottleneck in terms of both asset generation and integration in areas such as art, music and level design. I now am starting to meet with the level design pod, in addition to the player pod, to give feedback, do play testing, design levels, and implement levels. 
+
+The first thing I did was to familiarize myself with the tools that level designers have been using for Project Blue. This involved me throwing some tiles and secene trasition points around to see how everything fits together. There were a couple of hiccups I ran into but other people from the level-design pod were quite helpful on getting me up to speed. 
+
+Next sprint I hope to get my hands dirty by designing content for the Windmill Forts zone of the game. This is the more non-linear of the two major zones featured in the game and I am excited to come up with levels that can encourage exploration without being aimless or frustrating. I also am looking forward to creating gameplay sequences using the mechanic of spinning on windmills to gain momentum and fling yourself off of them. I think there is a lot of potential for interesting platforming sequences using this mechanic and also am curious if enemies could be placed near the windmills to spice up the combat. Ofcourse, this could be a terrible idea but I think its worth considering.
+
+Also after drafting up yet another prototype of mouse controls this week, complete with new annoyances, the player pod lead and I have determined that a complete rework of how aiming works in the game is inorder, currently it is done with a line renderer that originates from the player, but only the end is visible (see below). 
+
+![Line](https://i.imgur.com/tVpHylm.jpg)
+
+However now we are moving towards a new reticle design, (one potential canidate is below) and we are thinking that this, combined with our mouse difficulties, makes this the perfect time to stop using the line render.
+
+![Reticle](https://i.imgur.com/uENb1GS.png)
+
+Time Breakdown:
+Meetings and discussion: 7hrs., Mouse control refinements: 4hrs., Playtesting: 1hr, Level Design Familiarizing: 2hrs. 
+
 ## Dev Blog 2/17 - 3/2
 This sprint started with me play testing the official build of Project Blue. I gave feedback on the build, focusing on feedback that was relevant to the player pod. I gave feedback to the animators about how exaggerated the idle animation was and the possibility of adding an animation that contrasts walking and running. I also gave feedback about how player movement sometimes felt imprecise.
 
@@ -15,7 +33,7 @@ Time Breakdown:
 Meetings and Playtesting : 3hrs., Keyboard and Controller rebinding: 1hr, Mouse Control Prototypes: 8hrs.
 
 
-## Dev Blog 2/3 - 2
+## Dev Blog 2/3 - 2/17
 
 This sprint started with studio members learning our pod assignments. I was fortunate enough to be assigned to the player pod, which was the pod I indicated I was most interested in. The player pod lead and I are the two designers working on the movement and combat of the main character Io. In addition, we also are responsible for designing mechanics that directly impact the main character such as items. 
 
