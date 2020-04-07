@@ -1,4 +1,26 @@
 # WolverineSoft Studio Dev Blog
+## Dev Blog 3/23 - 4/6
+This sprint started with me meeting twice to work together with my pod lead, who wrote the bulk of the character controller, to help me rework the amining controls, there were a few snags along the way, but we were able to implement the controls in the way I invisioned. The feedback we received from other studio members has been positive, some even say that the mouse+keyboard controls are now their prefered way to play the game.
+
+The next thing I did was work on the next second stage of the windmill fort zone. For this stage I had a bit of a template to follow using the rough draft I was given. In its original incarnation it was quite horizontal, and flat than the other stages, which focused on long strigns of vertical windmill launches.
+
+![Iteration 1](https://i.imgur.com/b1cOCzB.jpg)
+
+Because this stage served as a transtion between two vertical segments I also thought it would be good to have this stage be a more combat focused interlude between the other two windmill-platforming focused stages. 
+
+![Iteration 2](https://i.imgur.com/DQxQTTT.jpg)
+
+At the end of the stage devlopment process all three of the windmill fort stages were unfortunately cut from the weeks build. Besides the presence of a lot of temp art and lack of refinement, the biggest issue was that playtesters new to the windmill launching mechanic were taking a very long time to learn how to pull off successful jumps with it. When I first played through the first iteration of the windmill fort at the beginning of this sprint I myself ran into similar issues, where it took me some time to discover the idiosyncrasies of the mechanic. Another problem that was paired with this steep learning curve was the difficulty. I found it nearly impossible to beat the last third of the first level where the windmills are introduced, even with spike damage disabled. 
+
+As a result of these myriad issues, a downscoping of the zone was in order, and the second stage I had worked on was cut as it was the earliest along in the iteration process and didn't do as much to showcase the possibilites of the windmill mechanic. Going forward I was asssinged to work on making the windmill launch mechanic is more accessible and easy to pull off. And after that I will be focusing on the first windmill fort stage to add enemies, reduce platforming difficulty, remove temp art and above all ensure that the mechanics are effectively tutorialized for new players. I think the windmill launch is a really engaging mechanic and really want to see it fleshed out in the game so I'm excited to work towards ensuring that players can get the most out of this great mechanic.
+
+New Tiles: 
+
+![Tiles](https://i.imgur.com/8LaGWsN.jpg)
+
+# Time Breakdown:
+Meetings: 7hrs., Play testing: 1hr, Level Creation: 5 hrs, Level Iteration: 2hrs. 
+
 ## Dev Blog 3/2 - 3/23
 For this sprint I found myself largely transitioning to a new role within the studio. At this time in the development process there is a bit of a bottleneck in terms of both asset generation and integration in areas such as art, music and level design. I now am starting to meet with the level design pod, in addition to the player pod, to give feedback, do play testing, design levels, and implement levels. 
 
@@ -14,7 +36,7 @@ However now we are moving towards a new reticle design, (one potential canidate 
 
 ![Reticle](https://i.imgur.com/uENb1GS.png)
 
-Time Breakdown:
+#Time Breakdown:
 Meetings and discussion: 7hrs., Mouse control refinements: 4hrs., Playtesting: 1hr, Level Design Familiarizing: 2hrs. 
 
 ## Dev Blog 2/17 - 3/2
@@ -29,7 +51,7 @@ The next thing I did was to protoype mouse controls. I used a couple of games as
 The next thing I did was read the aiming code in the Player Controller to try to understand how it works. I also read some documentation and talked to other studio members to get an idea of how Unity's Input Action system works and how use the Input Map. Then after wrestling with the code and with vector math, I attempted to implement the different schemes. Not all of my efforts were entirely successful, but after Spring Break I hope to get some help figuring out how to get the aiming to work the way I want it to.
 (Also I want to post some GIFs of the reference games and my prototypes but I haven't had access to a computer for the first half of break)
 
-Time Breakdown:
+#Time Breakdown:
 Meetings and Playtesting : 3hrs., Keyboard and Controller rebinding: 1hr, Mouse Control Prototypes: 8hrs.
 
 
